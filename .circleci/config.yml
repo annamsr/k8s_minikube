@@ -1,8 +1,7 @@
 version: 2.1
 
 orbs:
-  styra-orb: styra/cli@dev:0.0.1
-
+  cli: styra/cli@0.0.4
 workflows:
   version: 2.1
   check-workflow:
