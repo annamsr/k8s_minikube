@@ -7,3 +7,4 @@ workflows:
   check-workflow:
     jobs:
       - styra-orb/styra-check
+        context: SystemID_ b6c4e9e6e9fa410991061f3fa3b3d0ca
