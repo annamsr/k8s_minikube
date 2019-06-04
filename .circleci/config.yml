@@ -7,5 +7,4 @@ workflows:
   version: 2.1
   check-workflow:
     jobs:
-    - styra-orb/styra-policy-check:
-        context: SystemID_b6c4e9e6e9fa410991061f3fa3b3d0ca
+      styra-orb/styra-policy-check
