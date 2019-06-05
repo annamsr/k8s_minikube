@@ -1,13 +1,12 @@
 package gitops.admission_control
 
-monitor[reason] {
+deny[reason] {
   data.library.v1.kubernetes.admission.workload.v1.block_latest_image_tag[reason]
 }
 
-monitor[reason] {
+deny[reason] {
   data.library.v1.kubernetes.admission.workload.v1.block_master_toleration[reason]
 }
-
 
 # ------------------------------------------------------------------------------
 # Kubernetes Admission Controller Interface
