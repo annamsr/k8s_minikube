@@ -1,5 +1,24 @@
 package gitops.admission_control
 
+monitor[reason] {
+  data.library.v1.kubernetes.admission.workload.v1.check_image_pull_policy[reason]
+}
+
+monitor[reason] {
+  data.library.v1.kubernetes.admission.workload.v1.expect_container_resource_requirements[reason]
+}
+
+
+monitor[reason] {
+  data.library.v1.kubernetes.admission.workload.v1.check_image_pull_policy[reason]
+}
+
+
+monitor[reason] {
+  data.library.v1.kubernetes.admission.workload.v1.check_image_pull_policy[reason]
+}
+
+
 deny[reason] {
   data.library.v1.kubernetes.admission.workload.v1.block_latest_image_tag[reason]
 }
