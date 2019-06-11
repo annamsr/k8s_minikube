@@ -1,7 +1,8 @@
-package gitops.admission_control
+package admission_control
 
 monitor[reason] {
   data.library.v1.kubernetes.admission.workload.v1.check_image_pull_policy[reason]
+
 }
 
 monitor[reason] {
